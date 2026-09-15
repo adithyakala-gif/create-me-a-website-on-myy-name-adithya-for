@@ -1,0 +1,26 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules
+dist
+dist-singlefile
+
+# Editor / OS
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Env
+.env.local
+.env.*.local
+
+# TS build artifacts (from tsc -b)
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+vite.singlefile.config.js
+vite.singlefile.config.d.ts

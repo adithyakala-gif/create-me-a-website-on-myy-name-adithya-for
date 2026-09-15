@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-stone-800 font-sans antialiased;
+}
+
+/* Custom scrollbar for the cart / page */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff1e6;
+}
+::-webkit-scrollbar-thumb {
+  background: #fdba8c;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff8a4c;
+}
+
+.hero-gradient {
+  background:
+    radial-gradient(1200px 500px at 80% -10%, rgba(255, 138, 76, 0.25), transparent 60%),
+    radial-gradient(900px 500px at -10% 20%, rgba(253, 186, 140, 0.35), transparent 55%);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
